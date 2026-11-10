@@ -1,0 +1,1 @@
+function u(t){return new Intl.NumberFormat("fr-FR",{style:"currency",currency:"EUR"}).format(t)}function s(t,r,n){const e=new Date(t).getTime(),o=(new Date(r).getTime()-e)/(1e3*60*60),a=(n||0)/60;return o-a}function f(t){const r=Math.floor(t),n=Math.round((t-r)*60);return n===0?`${r}h`:`${r}h${n.toString().padStart(2,"0")}`}export{u as a,s as c,f};
